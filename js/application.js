@@ -2,8 +2,12 @@
 
 $(document).ready(function(){
   var router = new Router();
-  $(window).mousemove(function(e){
+  $(document).mousemove(function(e){
     router.mouse(e.pageX, e.pageY)
+  });
+
+  $(document).keydown(function(e){
+    router.key(String.fromCharCode(e.which));
   });
 });
 
