@@ -1,0 +1,20 @@
+{
+  "name": "drone",
+  "version": "1.0.0",
+  "description": "lofi tower defense + rpg mashup",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape -r babel-register tests/**/*.js"
+  },
+  "author": "pietgeursen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-register": "^6.4.3",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "sat": "^0.5.0",
+    "stampit": "^2.1.1"
+  }
+}
