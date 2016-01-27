@@ -5,8 +5,7 @@ const V = require('sat').Vector;
 const PositionableStamp = stampit({
   methods: {
     distanceTo(otherPosition){
-     console.log(otherPosition);
-     return this.position.sub(otherPosition).len()
+     return this.position.sub(otherPosition.position).len()
     }
   },
   init(context){
