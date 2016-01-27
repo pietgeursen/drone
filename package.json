@@ -4,7 +4,7 @@
   "description": "lofi tower defense + rpg mashup",
   "main": "index.js",
   "scripts": {
-    "test": "tape -r babel-register tests/**/*.js"
+    "test": "tape tests/**/*.js"
   },
   "author": "pietgeursen",
   "license": "ISC",
