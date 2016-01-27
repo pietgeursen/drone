@@ -1,8 +1,8 @@
-var test = require('tape');
-let HealthyStamp = require('../../src/stamps/healthy');
+var test = require('tape')
+let HealthyStamp = require('../../src/stamps/healthy')
 
-test("healthy", function(t) {
-  const healthy = HealthyStamp({hp:100})
+test('healthy', function (t) {
+  const healthy = HealthyStamp({hp: 100})
   healthy.setHp(100)
   t.is(healthy.getHp(), 100)
   healthy.setHp(50)

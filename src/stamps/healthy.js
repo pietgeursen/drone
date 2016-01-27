@@ -7,7 +7,6 @@ const HealthyStamp = stampit({
     this.getHp = () => _hp
     this.setHp = (hp) => _hp = hp < 0 ? 0 : hp
   }
-  })
-
+})
 
 module.exports = HealthyStamp
